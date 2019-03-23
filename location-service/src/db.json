@@ -1,0 +1,117 @@
+{
+    "Location": [
+        {
+            "id": "1",
+            "name": "Traction Guest - Canada",
+            "address": "#500 – 2700 Production Way Burnaby, BC, Canada V5A 0C2",
+            "contact": "Steve Smith - support@tractionguest.com",
+            "devices": [
+                {
+                    "id": "1",
+                    "name": "iPad Pro",
+                    "accesskey": "c7e68bc3ca"
+                }
+            ],
+            "invites": [
+                {
+                    "id": "1",
+                    "firstname": "Kenniston",
+                    "lastname": "Bonfim",
+                    "email": "kenniston@gmail.com",
+                    "company": "Dynamic Light Studios <dynamic-light.com.br>",
+                    "country": "Brazil",
+                    "startdate": "03/23/2019",
+                    "starttime": "09:00:00",
+                    "enddate": "03/23/2019",
+                    "endtime": "19:00:00",
+                    "host": [
+                        {
+                            "id": "1"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "firstname": "Tiago",
+                    "lastname": "Braccialli",
+                    "email": "bedabliu@gmail.com",
+                    "company": "Bank of Brazil <bb.com.br>",
+                    "country": "Brazil",
+                    "startdate": "03/23/2019",
+                    "starttime": "12:00:00",
+                    "enddate": "03/23/2019",
+                    "endtime": "19:00:00",
+                    "host": [
+                        {
+                            "id": "2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Traction Guest - Brazil",
+            "address": "Avenida Lineu de Paula Machado, 1088 - Jardim Everest - São Paulo - Brazil",
+            "contact": "Allan Gray - support@tractionguest.com",
+            "devices": [
+                {
+                    "id": "1",
+                    "name": "iPad",
+                    "accesskey": "d5e432c3ca"
+                }
+            ],
+            "invites": [
+                {
+                    "id": "1",
+                    "firstname": "Kenniston",
+                    "lastname": "Bonfim",
+                    "email": "kenniston@gmail.com",
+                    "company": "Dynamic Light Studios <dynamic-light.com.br>",
+                    "country": "Brazil",
+                    "startdate": "03/25/2019",
+                    "starttime": "09:00:00",
+                    "enddate": "03/25/2019",
+                    "endtime": "12:00:00",
+                    "host": [
+                        {
+                            "id": "3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Traction Guest - USA",
+            "address": "1 New Orchard Road Armonk, New York - USA",
+            "contact": "Jennifer Smith - support@ibm.com",
+            "devices": [
+                {
+                    "id": "1",
+                    "name": "iPad",
+                    "accesskey": "a5ca3bc3ca"
+                }
+            ],
+            "invites": [
+                {
+                    "id": "1",
+                    "firstname": "Tiago",
+                    "lastname": "Braccialli",
+                    "email": "bedabliu@gmail.com",
+                    "company": "Bank of Brazil <bb.com.br>",
+                    "country": "Brazil",
+                    "startdate": "03/25/2019",
+                    "starttime": "12:00:00",
+                    "enddate": "03/25/2019",
+                    "endtime": "13:00:00",
+                    "host": [
+                        {
+                            "id": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

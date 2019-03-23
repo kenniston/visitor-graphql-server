@@ -1,0 +1,53 @@
+type Host {
+    id: String!,
+    firtname: String,
+    lastname: String,
+    email: String,
+    department: String, 
+    alternativeemail: String,
+    mobile: String,
+    photo: String
+}
+
+type Device {
+    id: String!,
+    name: String,
+    accesskey: String
+}
+
+type Invite {
+    id: String!,
+    firstname: String,
+    lastname: String,
+    email: String,
+    company: String,
+    country: String,
+    startdate: String,
+    starttime: String,
+    enddate: String,
+    endtime: String,
+    host: [Host!]!
+}
+
+type Location {
+    id: String!,
+    name: String,
+    address: String,
+    contact: String,
+    devices: [Device!]
+    invites: [Invite!]
+}
+
+type Guest {
+    id: String!,
+    firstname: String,
+    lastname: String,
+    email: String,
+    company: String,
+    location: Location,
+    host: [Host!]
+}
+
+type Query {
+    getAllGuests(orderBy: String): [Guest!]!
+}

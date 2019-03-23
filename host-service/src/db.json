@@ -1,0 +1,34 @@
+{
+    "Host": [
+        {
+            "id": "1",
+            "firtname": "Danillo",
+            "lastname": "Souza",
+            "email": "danillo.souza@tractionguest.com",
+            "department": "Production", 
+            "alternativeemail": "danillo.souza@tractionguest.com",
+            "mobile": "+55 61 99999-9999",
+            "photo": "danilo.jpg"
+        },
+        {
+            "id": "2",
+            "firtname": "Cameron",
+            "lastname": "Wiebe",
+            "email": "cameron.wiebe@tractionguest.com",
+            "department": "Production", 
+            "alternativeemail": "cameron.wiebe@tractionguest.com",
+            "mobile": "+55 61 88888-8888",
+            "photo": "cameron.jpg"
+        },
+        {
+            "id": "3",
+            "firtname": "Keith",
+            "lastname": "Metcalfe",
+            "email": "keith.metcalfe@tractionguest.com",
+            "department": "Production", 
+            "alternativeemail": "keith.metcalfe@tractionguest.com",
+            "mobile": "+55 61 77777-7777",
+            "photo": "keith.jpg"
+        }
+    ]
+}

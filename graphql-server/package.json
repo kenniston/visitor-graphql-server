@@ -1,0 +1,34 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Simple GraphQL Server",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenniston/visitor-graphql-server.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js --exec babel-node",
+    "build": "babel --presets env -d bin/ src",
+    "babel": "babel-node src/server.js"
+  },
+  "keywords": [
+    "GraphQL",
+    "Server",
+    "NodeJS",
+    "JavaScript",
+    "Yoga"
+  ],
+  "author": "Kenniston Arraes Bonfim <kenniston@gmail.com>, Tiago Braccialli <bedabliu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql-yoga": "^1.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10"
+  }
+}

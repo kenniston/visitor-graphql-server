@@ -1,0 +1,31 @@
+{
+  "name": "location-service",
+  "version": "1.0.0",
+  "description": "Location Service",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel --presets env -d bin/ src",
+    "babel": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenniston/visitor-graphql-server.git"
+  },
+  "keywords": [
+    "Service",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "author": "Kenniston Arraes Bonfim <kenniston@gmail.com>, Tiago Braccialli <bedabliu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.10"
+  }
+}

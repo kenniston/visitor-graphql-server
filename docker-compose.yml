@@ -1,0 +1,68 @@
+version: "3.5"
+services:
+  graphql-server:
+    build:
+      context: ./graphql-server
+    image: graphql-server:0.1
+    networks: 
+      - graphql-network
+    environment: 
+      - GRAPHQL_SERVER_PORT=3000
+      - GUEST_SERVICE_DOMAIN=guest-service
+      - GUEST_SERVICE_PORT=3001
+      - LOCATION_SERVICE_DOMAIN=location-service
+      - LOCATION_SERVICE_PORT=3002
+      - HOST_SERVICE_DOMAIN=host-service
+      - HOST_SERVICE_PORT=3003
+    ports:
+      - "3000:3000"
+    deploy:
+      placement:
+        constraints:
+          - node.role == worker
+          - node.hostname == node20
+  guest-service:
+    build:
+      context: ./guest-service
+    image: guest-service:0.1
+    networks: 
+      - graphql-network
+    ports:
+      - "3001:3001"
+    deploy:
+      placement:
+        constraints:
+          - node.role == worker
+          - node.hostname == node20
+  location-service:
+    build:
+      context: ./location-service
+    image: location-service:0.1
+    networks: 
+      - graphql-network
+    ports:
+      - "3002:3002"
+    deploy:
+      placement:
+        constraints:
+          - node.role == worker
+          - node.hostname == node20
+  host-service:
+    build:
+      context: ./host-service
+    image: host-service:0.1
+    networks: 
+      - graphql-network
+    ports:
+      - "3003:3003"
+    deploy:
+      placement:
+        constraints:
+          - node.role == worker
+          - node.hostname == node20
+
+networks:
+  traefic:
+    external:
+      name: traefik-net
+  graphql-network:

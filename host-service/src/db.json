@@ -2,7 +2,7 @@
     "Host": [
         {
             "id": "1",
-            "firtname": "Danillo",
+            "firstname": "Danillo",
             "lastname": "Souza",
             "email": "danillo.souza@tractionguest.com",
             "department": "Production", 
@@ -12,7 +12,7 @@
         },
         {
             "id": "2",
-            "firtname": "Cameron",
+            "firstname": "Cameron",
             "lastname": "Wiebe",
             "email": "cameron.wiebe@tractionguest.com",
             "department": "Production", 
@@ -22,13 +22,24 @@
         },
         {
             "id": "3",
-            "firtname": "Keith",
+            "firstname": "Keith",
             "lastname": "Metcalfe",
             "email": "keith.metcalfe@tractionguest.com",
             "department": "Production", 
             "alternativeemail": "keith.metcalfe@tractionguest.com",
             "mobile": "+55 61 77777-7777",
             "photo": "keith.jpg"
+        },
+        {
+            "id": "4",
+            "firstname": "Ilya",
+            "lastname": "Brotzky",
+            "email": "ilya.brotzky@tractionguest.com",
+            "department": "Production", 
+            "alternativeemail": "ilya.brotzky@tractionguest.com",
+            "mobile": "+55 61 66666-66666",
+            "photo": "ilya.jpg"
         }
+
     ]
 }

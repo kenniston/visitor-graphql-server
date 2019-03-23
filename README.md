@@ -8,8 +8,8 @@ There are two ways to setup and run this project:
 
 #### Before run each service you must export 3 environment variables:
 
-export GUEST_SERVICE_DOMAIN=localhost
-export LOCATION_SERVICE_DOMAIN=localhost
-export HOST_SERVICE_DOMAIN=localhost
+- export GUEST_SERVICE_DOMAIN=localhost
+- export LOCATION_SERVICE_DOMAIN=localhost
+- export HOST_SERVICE_DOMAIN=localhost
 
 

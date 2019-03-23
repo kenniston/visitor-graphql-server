@@ -4,5 +4,5 @@ Visitor Management System with GraphQL Server
 ## Setup
 There are two ways to setup and run this project:
 1. Install Docker and run the command "docker-compose up"
-2. Run each service using "npm run dev" on service folder
+2. Run each service using "npm run dev" on service's folder
 

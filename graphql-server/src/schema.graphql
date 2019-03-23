@@ -1,6 +1,6 @@
 type Host {
     id: String!,
-    firtname: String,
+    firstname: String,
     lastname: String,
     email: String,
     department: String, 
@@ -49,5 +49,8 @@ type Guest {
 }
 
 type Query {
-    getAllGuests(orderBy: String): [Guest!]!
+    getAllGuests(orderBy: String): [Guest!]!,
+    getAllHosts(orderBy: String): [Host!]!,
+    getAllLocations(orderBy: String): [Location!]!,
+    guest(id: String!): Guest
 }

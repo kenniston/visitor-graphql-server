@@ -20,18 +20,10 @@ const locationServiceConfig = {
 const Guest = {
 
     location: async (root, { orderBy }, context, info) => {
-        var result = []
         const location = root.location
 
-        for (var i = 0; i < host.length; i++) {
-            const resp = await axios.get(`http://${locationServiceConfig.domain}:${locationServiceConfig.port}/location/${location}`)
-            result.push(resp.data)
-        }
-
-        if (orderBy != undefined) {
-            result.sort(sortByProperty(orderBy))
-        }
-        return result;
+        const resp = await axios.get(`http://${locationServiceConfig.domain}:${locationServiceConfig.port}/location/${location}`)
+        return resp.data;
     },
 
     host: async (root, { orderBy }, context, info) => {
